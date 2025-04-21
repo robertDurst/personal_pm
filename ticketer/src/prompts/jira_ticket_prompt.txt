@@ -1,0 +1,12 @@
+Create a Jira ticket based on the following description:
+
+{{description}}
+
+{{additional_context}}
+
+Format the response as JSON with the following fields:
+- summary: A concise title for the ticket (max 80 chars)
+- description: Detailed description of the issue/task
+- acceptance_criteria: List of criteria to consider the ticket complete
+- story_points: Estimated story points (1, 2, 3, 5, 8)
+- priority: Priority level (Highest, High, Medium, Low, Lowest)

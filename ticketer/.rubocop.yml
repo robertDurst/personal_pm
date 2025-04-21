@@ -1,0 +1,23 @@
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.0
+  SuggestExtensions: false
+
+Layout/LineLength:
+  Max: 130
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Metrics/MethodLength:
+  Max: 40
+
+Metrics/AbcSize:
+  Max: 40
+
+Style/Documentation:
+  Enabled: false
